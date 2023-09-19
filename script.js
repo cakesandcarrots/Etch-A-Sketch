@@ -7,7 +7,7 @@ else {
     canvas = document.querySelector('.canvas');
     for (row = 1; row <= count; row++) {
         let rPixel = document.createElement('div')
-        rPixel.classList.add('pixel');
+        rPixel.classList.add('rpixel');
         canvas.appendChild(rPixel);
 
         for (column = 1; column <= count; column++) {
